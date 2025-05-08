@@ -37,127 +37,126 @@
     </nav>
   </header>
 
-  <div class="container-fluid">
-    <h1> Tabla de tipos</h1>
-  </div>
 
-  <div class="d-flex  justify-content-center">
-    <table class="table table-striped" style="max-width: fit-content;">
-      <thead>
-        <tr>
-          <th scope="col">Tipo</th>
-          <th scope="col">Debilidad</th>
-          <th scope="col">Fuerte</th>
-          <th scope="col">Inmune</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>acero</td>
-          <td>Hielo, Roca</td>
-          <td>@mdo</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Agua</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Bicho</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Dragon</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Electrico</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Fantasma</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Fuego</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Hielo</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Lucha</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Normal</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Planta</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Psíquico</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Roca</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Siniestro</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Tierra</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Veneno</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Volador</td>
-          <td>Doe</td>
-          <td>@social</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="container-fluid w-75 bg-light p-2">
+    <h1 class="text-center"> Tabla de tipos</h1>
+    <div class="d-flex  justify-content-center pt-3">
+      <table class="table table-striped table-secondary table mx-auto" style="max-width: fit-content;">
+        <thead>
+          <tr>
+            <th scope="col" style="width: 150px;">Tipo</th>
+            <th scope="col" style="width: 150px;" >Debilidad</th>
+            <th scope="col" style="width: 150px;" >Fuerte</th>
+            <th scope="col" style="width: 150px;" >Inmune</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>acero</td>
+            <td>Hielo, Roca</td>
+            <td>Fuego, Lucha, Tierra</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Agua</td>
+            <td>Fuego, Roca, Tierra</td>
+            <td>Electrico, Planta</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Bicho</td>
+            <td>Planta, Psíquico, Siniestro</td>
+            <td>Fuego, Roca, Volador</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Dragon</td>
+            <td>Dragon</td>
+            <td>Dragon, Hielo</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Electrico</td>
+            <td>Agua, Volador</td>
+            <td>Tierra</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Fantasma</td>
+            <td>Fantasma, Psíquico</td>
+            <td>Fantasma, Siniestro</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Fuego</td>
+            <td>Acero, Bicho, Hielo, Planta</td>
+            <td>Agua, Roca, Tierra</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Hielo</td>
+            <td>Dragon, Planta, Tierra, Volador</td>
+            <td>Acero, Fuego, Lucha, Roca</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lucha</td>
+            <td>Acero, Hielo, Normal, Roca, Siniestro</td>
+            <td>Psíquico, Volador</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Normal</td>
+            <td></td>
+            <td>Lucha</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Planta</td>
+            <td>Agua, Roca, Tierra</td>
+            <td>Bicho, Fuego, Hielo, Veneno, Volador</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Psíquico</td>
+            <td>Lucha, Veneno</td>
+            <td>Bicho, Fantasma, Siniestro</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Roca</td>
+            <td>Bicho, Fuego, Hielo, Volador</td>
+            <td>@social</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Siniestro</td>
+            <td>Fantasma, Psíquico</td>
+            <td>Bicho, Lucha</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Tierra</td>
+            <td>Acero, Electrico, Fuego, Roca, Veneno</td>
+            <td>Agua, Hielo, Planta</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Veneno</td>
+            <td>Planta</td>
+            <td>Psíquico, Tierra</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Volador</td>
+            <td>Bicho, Lucha, Planta</td>
+            <td>Electrico, Hielo, Roca</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
-
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
