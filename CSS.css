@@ -12,6 +12,14 @@ body::before {
   z-index: -1; /* Asegura que el seudoelemento esté detrás del contenido */
 }
 
+
+.colTipos{
+
+  width: 40px;
+
+}
+
+
 .logoP{
   width: 110px; height:40px;
 }
