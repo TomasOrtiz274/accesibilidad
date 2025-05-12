@@ -1,21 +1,26 @@
 
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(Fondo.jpg); /* Imagen de fondo para el seudoelemento */
-  background-size: cover;
-  opacity: 0.5; /* Ajusta la opacidad aquí */
-  z-index: -1; /* Asegura que el seudoelemento esté detrás del contenido */
+
+
+body {
+    background-image: url("Fondo.jpg"); /* Ruta a tu imagen */
+    background-repeat: repeat; /* O no-repeat, repeat-x, repeat-y */
+    background-size:auto;
+}
+
+.centro{
+  vertical-align: middle;
 }
 
 
 .colTipos{
 
   width: 40px;
+
+}
+
+.colTiposDF{
+
+  width: 25px;
 
 }
 
